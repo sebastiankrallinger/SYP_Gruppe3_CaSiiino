@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class MainmenuFunctions : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +37,6 @@ public class MainmenuFunctions : MonoBehaviour
     public void goTo11mScene()
     {
         SceneManager.LoadScene("11mScene");
-    }
-    //Go to Settings Scene
-    public void goToSettingsScene()
-    {
-        
     }
     //Exit Game
     public void extiGame()
