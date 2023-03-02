@@ -9,7 +9,7 @@ public class MainmenuFunctions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class MainmenuFunctions : MonoBehaviour
     //Go to Settings Scene
     public void goToSettingsScene()
     {
-        SceneManager.LoadScene("SettingsScene");
+        
     }
     //Exit Game
     public void extiGame()
