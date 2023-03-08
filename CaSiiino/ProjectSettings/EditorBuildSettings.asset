@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Mainmenu.unity
     guid: 720ef6a8249935942b3ac8a6b0f15bea
   - enabled: 1
-    path: Assets/Scenes/RouletteScene.unity
+    path: Assets/Scenes/Roulette/RouletteScene.unity
     guid: 4349b43f13fe97f489267bf6fcd5579f
   - enabled: 1
     path: Assets/Scenes/HorseraceScene.unity
