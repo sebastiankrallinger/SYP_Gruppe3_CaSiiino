@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Timers;
+using UnityEngine.SceneManagement;
 
 public class Script_11m : MonoBehaviour
 {
@@ -53,4 +54,8 @@ public class Script_11m : MonoBehaviour
 
     public void increaseSlider(Slider s, int i) { s.value = i; }
     public void decreaseSlider(Slider s, int i) { s.value = i; }
+    public void goToMain()
+    {
+        SceneManager.LoadScene("Mainmenu");
+    }
 }

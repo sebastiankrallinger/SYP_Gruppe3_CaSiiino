@@ -6,11 +6,12 @@ using UnityEngine.UI;
 
 public class MainmenuFunctions : MonoBehaviour
 {
+    public GameObject Username;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+       Username.SetActive(true);
     }
 
     // Update is called once per frame
