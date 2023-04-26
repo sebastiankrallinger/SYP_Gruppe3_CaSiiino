@@ -559,7 +559,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 484054465}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705812410}
+        m_TargetAssemblyTypeName: horseraceGame, Assembly-CSharp
+        m_MethodName: onHorse1Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &484054465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -899,7 +911,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 914195374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705812410}
+        m_TargetAssemblyTypeName: horseraceGame, Assembly-CSharp
+        m_MethodName: onHorse2Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &914195374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,7 +1105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a099da7cba2964cb3f57180a74c09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 1
 --- !u!1 &1172850440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,7 +1322,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1302632194}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705812410}
+        m_TargetAssemblyTypeName: horseraceGame, Assembly-CSharp
+        m_MethodName: onHorse3Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1302632194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1652,7 +1687,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1392204159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705812410}
+        m_TargetAssemblyTypeName: horseraceGame, Assembly-CSharp
+        m_MethodName: onHorse4Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1392204159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1985,7 +2032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a099da7cba2964cb3f57180a74c09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 1
 --- !u!114 &1705812409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2015,6 +2061,18 @@ MonoBehaviour:
   horseManager: {fileID: 1107177016}
   canvasStart: {fileID: 1873941670}
   inputField: {fileID: 1397523524}
+  selectedImg1: {fileID: 21300000, guid: ed50d1145af67eb45a9430fceffce3e2, type: 3}
+  selectedImg2: {fileID: 21300000, guid: fd865e440558f544da229ef68fbd6f00, type: 3}
+  selectedImg3: {fileID: 21300000, guid: 5b550091f148efa479b4e884a343054f, type: 3}
+  selectedImg4: {fileID: 21300000, guid: 65b735acd5268114494b09022d580be4, type: 3}
+  Img1: {fileID: 21300000, guid: 39ca50f4c45d619458171b1b620be3ba, type: 3}
+  Img2: {fileID: 21300000, guid: 45bb9aea0b3f6e745b061efae84b4731, type: 3}
+  Img3: {fileID: 21300000, guid: deda531ca4314c1418df2d45910809fe, type: 3}
+  Img4: {fileID: 21300000, guid: 7e32a38511252924f9f909e5e89d69d8, type: 3}
+  btn1: {fileID: 484054464}
+  btn2: {fileID: 914195373}
+  btn3: {fileID: 1302632193}
+  btn4: {fileID: 1392204158}
 --- !u!1 &1873941667
 GameObject:
   m_ObjectHideFlags: 0

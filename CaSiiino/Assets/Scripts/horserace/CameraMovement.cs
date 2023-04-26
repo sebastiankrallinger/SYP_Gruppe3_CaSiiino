@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public float cameraSpeed;
+    //public float cameraSpeed ;
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.position += new Vector3(cameraSpeed * Time.deltaTime, 0, 0);   
+        Time.fixedDeltaTime = 5;
+        transform.position += new Vector3(Random.Range((float)0.01, 10) * Time.deltaTime, 0, 0);   
     }
 }
