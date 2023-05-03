@@ -14,13 +14,13 @@ public class Field : MonoBehaviour
         
     }
     private int fieldnr;
-    private string color;
+    private string bezeichnung;
     private int einsatz;
 
-    public Field(int fieldnr, string color, int einsatz)
+    public Field(int fieldnr, string bezeichnung, int einsatz)
     {
         this.fieldnr = fieldnr;
-        this.color = color;
+        this.bezeichnung = bezeichnung;
         this.einsatz = einsatz;
     }
     public int Fieldnr
@@ -32,5 +32,10 @@ public class Field : MonoBehaviour
     {
         get { return einsatz; }
         set { einsatz = value; }
+    }
+    public string Bezeichnung
+    {
+        get { return bezeichnung; }
+        set { bezeichnung = value; }
     }
 }

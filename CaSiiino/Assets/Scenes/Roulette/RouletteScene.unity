@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 5917052}
   - component: {fileID: 5917051}
   - component: {fileID: 5917054}
+  - component: {fileID: 5917055}
   m_Layer: 5
   m_Name: btn19
   m_TagString: Untagged
@@ -219,6 +220,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5917055}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5917052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +284,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 5917049}
   Canvas: {fileID: 1448258839}
+--- !u!114 &5917055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 5917049}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &8305383
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +597,7 @@ GameObject:
   - component: {fileID: 51488092}
   - component: {fileID: 51488091}
   - component: {fileID: 51488094}
+  - component: {fileID: 51488095}
   m_Layer: 5
   m_Name: btn30
   m_TagString: Untagged
@@ -652,6 +681,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 51488095}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51488092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,6 +745,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 51488089}
   Canvas: {fileID: 1448258839}
+--- !u!114 &51488095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51488089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 51488089}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &80193327
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +773,7 @@ GameObject:
   - component: {fileID: 80193330}
   - component: {fileID: 80193329}
   - component: {fileID: 80193332}
+  - component: {fileID: 80193333}
   m_Layer: 5
   m_Name: btn32
   m_TagString: Untagged
@@ -800,6 +857,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 80193333}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &80193330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -852,6 +921,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 80193327}
   Canvas: {fileID: 1448258839}
+--- !u!114 &80193333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80193327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 80193327}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &91812256
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +949,7 @@ GameObject:
   - component: {fileID: 91812259}
   - component: {fileID: 91812258}
   - component: {fileID: 91812261}
+  - component: {fileID: 91812262}
   m_Layer: 5
   m_Name: btn23
   m_TagString: Untagged
@@ -948,6 +1033,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 91812262}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &91812259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,6 +1097,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 91812256}
   Canvas: {fileID: 1448258839}
+--- !u!114 &91812262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91812256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 91812256}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &94163301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1125,7 @@ GameObject:
   - component: {fileID: 94163304}
   - component: {fileID: 94163303}
   - component: {fileID: 94163306}
+  - component: {fileID: 94163307}
   m_Layer: 5
   m_Name: btn4
   m_TagString: Untagged
@@ -1096,6 +1209,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 94163307}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &94163304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,6 +1273,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 94163301}
   Canvas: {fileID: 1448258839}
+--- !u!114 &94163307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94163301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 94163301}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &103882239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1301,7 @@ GameObject:
   - component: {fileID: 103882242}
   - component: {fileID: 103882241}
   - component: {fileID: 103882244}
+  - component: {fileID: 103882245}
   m_Layer: 5
   m_Name: btn2
   m_TagString: Untagged
@@ -1244,6 +1385,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 103882245}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &103882242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,6 +1449,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 103882239}
   Canvas: {fileID: 1448258839}
+--- !u!114 &103882245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103882239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 103882239}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &109544649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,6 +1477,7 @@ GameObject:
   - component: {fileID: 109544652}
   - component: {fileID: 109544651}
   - component: {fileID: 109544654}
+  - component: {fileID: 109544655}
   m_Layer: 5
   m_Name: btn28
   m_TagString: Untagged
@@ -1392,6 +1561,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 109544655}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &109544652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,6 +1625,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 109544649}
   Canvas: {fileID: 1448258839}
+--- !u!114 &109544655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109544649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 109544649}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
+--- !u!1 &169206861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169206862}
+  - component: {fileID: 169206863}
+  m_Layer: 5
+  m_Name: Text Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &169206862
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169206861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1712096933}
+  - {fileID: 1792481739}
+  m_Father: {fileID: 2027498448}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_SizeDelta: {x: -20, y: -13}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &169206863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169206861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: -8, y: -5, z: -8, w: -5}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &177956608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,8 +1706,9 @@ GameObject:
   - component: {fileID: 177956611}
   - component: {fileID: 177956610}
   - component: {fileID: 177956613}
+  - component: {fileID: 177956614}
   m_Layer: 5
-  m_Name: btnManque
+  m_Name: btn38Manque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1540,6 +1790,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 177956614}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &177956611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,6 +1854,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 177956608}
   Canvas: {fileID: 1448258839}
+--- !u!114 &177956614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177956608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 177956608}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &182271255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,6 +1882,7 @@ GameObject:
   - component: {fileID: 182271258}
   - component: {fileID: 182271257}
   - component: {fileID: 182271260}
+  - component: {fileID: 182271261}
   m_Layer: 5
   m_Name: btn17
   m_TagString: Untagged
@@ -1688,6 +1966,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 182271261}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &182271258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1740,6 +2030,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 182271255}
   Canvas: {fileID: 1448258839}
+--- !u!114 &182271261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182271255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 182271255}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &219192371
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,8 +2058,9 @@ GameObject:
   - component: {fileID: 219192374}
   - component: {fileID: 219192373}
   - component: {fileID: 219192376}
+  - component: {fileID: 219192377}
   m_Layer: 5
-  m_Name: btnPasse
+  m_Name: btn37Passe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1836,6 +2142,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219192377}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &219192374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1888,6 +2206,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 219192371}
   Canvas: {fileID: 1448258839}
+--- !u!114 &219192377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219192371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 219192371}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &374469827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,9 +2300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gib hier den Betrag ein
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2059,6 +2390,7 @@ GameObject:
   - component: {fileID: 379722656}
   - component: {fileID: 379722655}
   - component: {fileID: 379722658}
+  - component: {fileID: 379722659}
   m_Layer: 5
   m_Name: btn11
   m_TagString: Untagged
@@ -2142,6 +2474,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 379722659}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &379722656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2194,6 +2538,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 379722653}
   Canvas: {fileID: 1448258839}
+--- !u!114 &379722659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379722653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 379722653}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &384112310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,6 +2566,7 @@ GameObject:
   - component: {fileID: 384112313}
   - component: {fileID: 384112312}
   - component: {fileID: 384112315}
+  - component: {fileID: 384112316}
   m_Layer: 5
   m_Name: btn5
   m_TagString: Untagged
@@ -2290,6 +2650,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 384112316}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &384112313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2342,6 +2714,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 384112310}
   Canvas: {fileID: 1448258839}
+--- !u!114 &384112316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384112310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 384112310}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &388442850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,8 +2742,9 @@ GameObject:
   - component: {fileID: 388442853}
   - component: {fileID: 388442852}
   - component: {fileID: 388442855}
+  - component: {fileID: 388442856}
   m_Layer: 5
-  m_Name: btnlinksSpalte
+  m_Name: btn49linksSpalte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2438,6 +2826,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 388442856}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &388442853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2490,6 +2890,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 388442850}
   Canvas: {fileID: 1448258839}
+--- !u!114 &388442856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388442850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 388442850}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &391710350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2971,7 @@ GameObject:
   - component: {fileID: 460089334}
   - component: {fileID: 460089333}
   - component: {fileID: 460089336}
+  - component: {fileID: 460089337}
   m_Layer: 5
   m_Name: btn25
   m_TagString: Untagged
@@ -2639,6 +3055,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 460089337}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &460089334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2691,6 +3119,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 460089331}
   Canvas: {fileID: 1448258839}
+--- !u!114 &460089337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460089331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 460089331}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &487544699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,8 +3147,9 @@ GameObject:
   - component: {fileID: 487544702}
   - component: {fileID: 487544701}
   - component: {fileID: 487544704}
+  - component: {fileID: 487544705}
   m_Layer: 5
-  m_Name: btnP(1-12)R
+  m_Name: btn44P(1-12)R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2724,7 +3168,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1817343460}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2787,6 +3231,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 487544705}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &487544702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2839,6 +3295,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 487544699}
   Canvas: {fileID: 1448258839}
+--- !u!114 &487544705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487544699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 487544699}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &528925616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,6 +3323,7 @@ GameObject:
   - component: {fileID: 528925619}
   - component: {fileID: 528925618}
   - component: {fileID: 528925621}
+  - component: {fileID: 528925622}
   m_Layer: 5
   m_Name: btn31
   m_TagString: Untagged
@@ -2935,6 +3407,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528925622}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &528925619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2987,6 +3471,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 528925616}
   Canvas: {fileID: 1448258839}
+--- !u!114 &528925622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528925616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 528925616}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &537924422
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,6 +3575,7 @@ GameObject:
   - component: {fileID: 553656107}
   - component: {fileID: 553656106}
   - component: {fileID: 553656109}
+  - component: {fileID: 553656110}
   m_Layer: 5
   m_Name: btn26
   m_TagString: Untagged
@@ -3159,6 +3659,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 553656110}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &553656107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3211,6 +3723,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 553656104}
   Canvas: {fileID: 1448258839}
+--- !u!114 &553656110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553656104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 553656104}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &569285780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3943,7 @@ GameObject:
   - component: {fileID: 572372442}
   - component: {fileID: 572372441}
   - component: {fileID: 572372444}
+  - component: {fileID: 572372445}
   m_Layer: 5
   m_Name: btn14
   m_TagString: Untagged
@@ -3499,6 +4027,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 572372445}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &572372442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3551,6 +4091,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 572372439}
   Canvas: {fileID: 1448258839}
+--- !u!114 &572372445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572372439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 572372439}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &582195028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3564,6 +4119,7 @@ GameObject:
   - component: {fileID: 582195031}
   - component: {fileID: 582195030}
   - component: {fileID: 582195033}
+  - component: {fileID: 582195034}
   m_Layer: 5
   m_Name: btn16
   m_TagString: Untagged
@@ -3647,6 +4203,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 582195034}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &582195031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3699,6 +4267,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 582195028}
   Canvas: {fileID: 1448258839}
+--- !u!114 &582195034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582195028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 582195028}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &590919014
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,6 +4295,7 @@ GameObject:
   - component: {fileID: 590919017}
   - component: {fileID: 590919016}
   - component: {fileID: 590919019}
+  - component: {fileID: 590919020}
   m_Layer: 5
   m_Name: 'btn0 '
   m_TagString: Untagged
@@ -3795,6 +4379,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 590919020}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &590919017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3847,6 +4443,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 590919014}
   Canvas: {fileID: 1448258839}
+--- !u!114 &590919020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590919014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 590919014}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &614486851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3860,6 +4471,7 @@ GameObject:
   - component: {fileID: 614486854}
   - component: {fileID: 614486853}
   - component: {fileID: 614486856}
+  - component: {fileID: 614486857}
   m_Layer: 5
   m_Name: btn24
   m_TagString: Untagged
@@ -3943,6 +4555,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 614486857}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &614486854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3995,6 +4619,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 614486851}
   Canvas: {fileID: 1448258839}
+--- !u!114 &614486857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614486851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 614486851}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &714555312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,6 +4647,7 @@ GameObject:
   - component: {fileID: 714555315}
   - component: {fileID: 714555314}
   - component: {fileID: 714555317}
+  - component: {fileID: 714555318}
   m_Layer: 5
   m_Name: btn8
   m_TagString: Untagged
@@ -4091,6 +4731,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 714555318}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &714555315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4143,6 +4795,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 714555312}
   Canvas: {fileID: 1448258839}
+--- !u!114 &714555318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714555312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 714555312}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &745514892
 GameObject:
   m_ObjectHideFlags: 0
@@ -4156,6 +4823,7 @@ GameObject:
   - component: {fileID: 745514895}
   - component: {fileID: 745514894}
   - component: {fileID: 745514897}
+  - component: {fileID: 745514898}
   m_Layer: 5
   m_Name: btn7
   m_TagString: Untagged
@@ -4239,6 +4907,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 745514898}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &745514895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4291,6 +4971,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 745514892}
   Canvas: {fileID: 1448258839}
+--- !u!114 &745514898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745514892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 745514892}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &756752197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4326,8 +5021,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.289997, y: 374.73157}
-  m_SizeDelta: {x: 514.3595, y: 73.1174}
+  m_AnchoredPosition: {x: -8.4348, y: 341.97134}
+  m_SizeDelta: {x: 1099.0131, y: 138.6381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &756752199
 MonoBehaviour:
@@ -4349,7 +5044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wie viel willst du setzen?
+  m_text: Geben sie hier den Betrag ein den sie auf dieses Feld setzen wollen!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4383,8 +5078,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4412,7 +5107,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 2.2937012, w: 0}
+  m_margin: {x: 2.2592773, y: 0, z: 2.2937012, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4439,8 +5134,9 @@ GameObject:
   - component: {fileID: 770388902}
   - component: {fileID: 770388901}
   - component: {fileID: 770388904}
+  - component: {fileID: 770388905}
   m_Layer: 5
-  m_Name: btnP(1-12)L
+  m_Name: btn43P(1-12)L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4459,7 +5155,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1817343460}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4522,6 +5218,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 770388905}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &770388902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4574,6 +5282,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 770388899}
   Canvas: {fileID: 1448258839}
+--- !u!114 &770388905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770388899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 770388899}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &800414954
 GameObject:
   m_ObjectHideFlags: 0
@@ -4587,6 +5310,7 @@ GameObject:
   - component: {fileID: 800414957}
   - component: {fileID: 800414956}
   - component: {fileID: 800414959}
+  - component: {fileID: 800414960}
   m_Layer: 5
   m_Name: btn27
   m_TagString: Untagged
@@ -4670,6 +5394,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 800414960}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &800414957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4722,6 +5458,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 800414954}
   Canvas: {fileID: 1448258839}
+--- !u!114 &800414960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800414954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 800414954}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &819583152
 GameObject:
   m_ObjectHideFlags: 0
@@ -4735,6 +5486,7 @@ GameObject:
   - component: {fileID: 819583155}
   - component: {fileID: 819583154}
   - component: {fileID: 819583157}
+  - component: {fileID: 819583158}
   m_Layer: 5
   m_Name: btn9
   m_TagString: Untagged
@@ -4818,6 +5570,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 819583158}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &819583155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4870,6 +5634,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 819583152}
   Canvas: {fileID: 1448258839}
+--- !u!114 &819583158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819583152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 819583152}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &822796858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,8 +5806,9 @@ GameObject:
   - component: {fileID: 901415740}
   - component: {fileID: 901415739}
   - component: {fileID: 901415742}
+  - component: {fileID: 901415743}
   m_Layer: 5
-  m_Name: btnInpair
+  m_Name: btn40Inpair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5110,6 +5890,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 901415743}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &901415740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5162,6 +5954,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 901415737}
   Canvas: {fileID: 1448258839}
+--- !u!114 &901415743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901415737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 901415737}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &947482262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5175,6 +5982,7 @@ GameObject:
   - component: {fileID: 947482265}
   - component: {fileID: 947482264}
   - component: {fileID: 947482267}
+  - component: {fileID: 947482268}
   m_Layer: 5
   m_Name: btn36
   m_TagString: Untagged
@@ -5258,6 +6066,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 947482268}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &947482265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5310,6 +6130,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 947482262}
   Canvas: {fileID: 1448258839}
+--- !u!114 &947482268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947482262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 947482262}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &954202921
 GameObject:
   m_ObjectHideFlags: 0
@@ -5323,6 +6158,7 @@ GameObject:
   - component: {fileID: 954202924}
   - component: {fileID: 954202923}
   - component: {fileID: 954202926}
+  - component: {fileID: 954202927}
   m_Layer: 5
   m_Name: btn1
   m_TagString: Untagged
@@ -5406,6 +6242,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 954202927}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &954202924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5458,6 +6306,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 954202921}
   Canvas: {fileID: 1448258839}
+--- !u!114 &954202927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954202921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 954202921}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &961887666
 GameObject:
   m_ObjectHideFlags: 0
@@ -5471,8 +6334,9 @@ GameObject:
   - component: {fileID: 961887669}
   - component: {fileID: 961887668}
   - component: {fileID: 961887671}
+  - component: {fileID: 961887672}
   m_Layer: 5
-  m_Name: btnrechteSpalte
+  m_Name: btn51rechteSpalte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5554,6 +6418,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 961887672}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &961887669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5606,6 +6482,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 961887666}
   Canvas: {fileID: 1448258839}
+--- !u!114 &961887672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961887666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 961887666}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &999606937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5754,6 +6645,7 @@ GameObject:
   - component: {fileID: 1061200596}
   - component: {fileID: 1061200595}
   - component: {fileID: 1061200598}
+  - component: {fileID: 1061200599}
   m_Layer: 5
   m_Name: btn29
   m_TagString: Untagged
@@ -5837,6 +6729,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1061200599}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1061200596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5889,6 +6793,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1061200593}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1061200599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061200593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1061200593}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1068580122
 GameObject:
   m_ObjectHideFlags: 0
@@ -5987,13 +6906,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: onFieldClick, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1068580128}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: setEinsatz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6064,7 +6983,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 1068580122}
-  betrag: 0
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1092657550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6078,6 +6998,7 @@ GameObject:
   - component: {fileID: 1092657553}
   - component: {fileID: 1092657552}
   - component: {fileID: 1092657555}
+  - component: {fileID: 1092657556}
   m_Layer: 5
   m_Name: btn10
   m_TagString: Untagged
@@ -6161,6 +7082,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1092657556}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1092657553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6213,6 +7146,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1092657550}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1092657556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092657550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1092657550}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1095434502
 GameObject:
   m_ObjectHideFlags: 0
@@ -6226,6 +7174,7 @@ GameObject:
   - component: {fileID: 1095434505}
   - component: {fileID: 1095434504}
   - component: {fileID: 1095434507}
+  - component: {fileID: 1095434508}
   m_Layer: 5
   m_Name: btn13
   m_TagString: Untagged
@@ -6309,6 +7258,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1095434508}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1095434505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6361,6 +7322,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1095434502}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1095434508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095434502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1095434502}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1102632582
 GameObject:
   m_ObjectHideFlags: 0
@@ -6374,8 +7350,9 @@ GameObject:
   - component: {fileID: 1102632585}
   - component: {fileID: 1102632584}
   - component: {fileID: 1102632587}
+  - component: {fileID: 1102632588}
   m_Layer: 5
-  m_Name: btnRot
+  m_Name: btn42Rot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6394,7 +7371,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1817343460}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6457,6 +7434,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1102632588}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1102632585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6509,6 +7498,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1102632582}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1102632588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102632582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1102632582}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1114461541
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,6 +7526,7 @@ GameObject:
   - component: {fileID: 1114461544}
   - component: {fileID: 1114461543}
   - component: {fileID: 1114461546}
+  - component: {fileID: 1114461547}
   m_Layer: 5
   m_Name: btn20
   m_TagString: Untagged
@@ -6605,6 +7610,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1114461547}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1114461544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6657,6 +7674,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1114461541}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1114461547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114461541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1114461541}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1240110490
 GameObject:
   m_ObjectHideFlags: 0
@@ -6819,8 +7851,9 @@ GameObject:
   - component: {fileID: 1294862824}
   - component: {fileID: 1294862823}
   - component: {fileID: 1294862826}
+  - component: {fileID: 1294862827}
   m_Layer: 5
-  m_Name: btnM(13-24)L
+  m_Name: btn45M(13-24)L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6902,6 +7935,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1294862827}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1294862824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6954,6 +7999,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1294862821}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1294862827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294862821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1294862821}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1351292721
 GameObject:
   m_ObjectHideFlags: 0
@@ -7219,8 +8279,9 @@ GameObject:
   - component: {fileID: 1382661757}
   - component: {fileID: 1382661756}
   - component: {fileID: 1382661759}
+  - component: {fileID: 1382661760}
   m_Layer: 5
-  m_Name: btnPair
+  m_Name: btn39Pair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7302,6 +8363,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1382661760}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1382661757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7354,6 +8427,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1382661754}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1382661760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382661754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1382661754}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1419662749
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,6 +8455,7 @@ GameObject:
   - component: {fileID: 1419662752}
   - component: {fileID: 1419662751}
   - component: {fileID: 1419662754}
+  - component: {fileID: 1419662755}
   m_Layer: 5
   m_Name: btn3
   m_TagString: Untagged
@@ -7450,6 +8539,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1419662755}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1419662752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7502,6 +8603,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1419662749}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1419662755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419662749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1419662749}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1448258839
 GameObject:
   m_ObjectHideFlags: 0
@@ -7813,6 +8929,7 @@ GameObject:
   - component: {fileID: 1580746346}
   - component: {fileID: 1580746345}
   - component: {fileID: 1580746348}
+  - component: {fileID: 1580746349}
   m_Layer: 5
   m_Name: btn34
   m_TagString: Untagged
@@ -7896,6 +9013,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1580746349}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1580746346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7948,6 +9077,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1580746343}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1580746349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580746343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1580746343}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1617917625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7961,6 +9105,7 @@ GameObject:
   - component: {fileID: 1617917628}
   - component: {fileID: 1617917627}
   - component: {fileID: 1617917630}
+  - component: {fileID: 1617917631}
   m_Layer: 5
   m_Name: btn35
   m_TagString: Untagged
@@ -8044,6 +9189,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1617917631}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1617917628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8096,6 +9253,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1617917625}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1617917631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617917625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1617917625}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1635399120
 GameObject:
   m_ObjectHideFlags: 0
@@ -8109,8 +9281,9 @@ GameObject:
   - component: {fileID: 1635399123}
   - component: {fileID: 1635399122}
   - component: {fileID: 1635399125}
+  - component: {fileID: 1635399126}
   m_Layer: 5
-  m_Name: btnD(25-36)L
+  m_Name: btn47D(25-36)L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8192,6 +9365,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1635399126}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1635399123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8244,6 +9429,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1635399120}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1635399126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635399120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1635399120}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1676693315
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,8 +9457,9 @@ GameObject:
   - component: {fileID: 1676693318}
   - component: {fileID: 1676693317}
   - component: {fileID: 1676693320}
+  - component: {fileID: 1676693321}
   m_Layer: 5
-  m_Name: btnM(13-24)R
+  m_Name: btn46M(13-24)R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8340,6 +9541,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1676693321}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1676693318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8392,6 +9605,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1676693315}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1676693321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676693315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1676693315}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1685141731
 GameObject:
   m_ObjectHideFlags: 0
@@ -8405,6 +9633,7 @@ GameObject:
   - component: {fileID: 1685141734}
   - component: {fileID: 1685141733}
   - component: {fileID: 1685141736}
+  - component: {fileID: 1685141737}
   m_Layer: 5
   m_Name: btn21
   m_TagString: Untagged
@@ -8488,6 +9717,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1685141737}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1685141734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8540,6 +9781,177 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1685141731}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1685141737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685141731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1685141731}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
+--- !u!1 &1712096929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712096933}
+  - component: {fileID: 1712096932}
+  - component: {fileID: 1712096930}
+  - component: {fileID: 1712096931}
+  m_Layer: 5
+  m_Name: Placeholder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1712096930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712096929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Enter text...
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 2150773298
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 14
+  m_fontSizeBase: 14
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 2
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 1
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1712096931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712096929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &1712096932
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712096929}
+  m_CullTransparentMesh: 1
+--- !u!224 &1712096933
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712096929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 169206862}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1728493364
 GameObject:
   m_ObjectHideFlags: 0
@@ -8553,6 +9965,7 @@ GameObject:
   - component: {fileID: 1728493367}
   - component: {fileID: 1728493366}
   - component: {fileID: 1728493369}
+  - component: {fileID: 1728493370}
   m_Layer: 5
   m_Name: btn18
   m_TagString: Untagged
@@ -8636,6 +10049,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1728493370}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1728493367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8688,6 +10113,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1728493364}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1728493370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728493364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1728493364}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1745313630
 GameObject:
   m_ObjectHideFlags: 0
@@ -8701,6 +10141,7 @@ GameObject:
   - component: {fileID: 1745313633}
   - component: {fileID: 1745313632}
   - component: {fileID: 1745313635}
+  - component: {fileID: 1745313636}
   m_Layer: 5
   m_Name: btn6
   m_TagString: Untagged
@@ -8784,6 +10225,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1745313636}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1745313633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8836,6 +10289,156 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1745313630}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1745313636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745313630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1745313630}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
+--- !u!1 &1792481736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792481739}
+  - component: {fileID: 1792481738}
+  - component: {fileID: 1792481737}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1792481737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792481736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u200B"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 14
+  m_fontSizeBase: 14
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 1
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1792481738
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792481736}
+  m_CullTransparentMesh: 1
+--- !u!224 &1792481739
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792481736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 169206862}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1817343459
 GameObject:
   m_ObjectHideFlags: 0
@@ -8871,10 +10474,10 @@ RectTransform:
   - {fileID: 177956609}
   - {fileID: 1382661755}
   - {fileID: 901415738}
-  - {fileID: 1102632583}
   - {fileID: 2086963663}
-  - {fileID: 487544700}
+  - {fileID: 1102632583}
   - {fileID: 770388900}
+  - {fileID: 487544700}
   - {fileID: 1294862822}
   - {fileID: 1676693316}
   - {fileID: 1635399121}
@@ -8964,6 +10567,7 @@ GameObject:
   - component: {fileID: 1886389245}
   - component: {fileID: 1886389244}
   - component: {fileID: 1886389247}
+  - component: {fileID: 1886389248}
   m_Layer: 5
   m_Name: btn15
   m_TagString: Untagged
@@ -9047,6 +10651,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1886389248}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1886389245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9099,6 +10715,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1886389242}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1886389248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886389242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1886389242}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1895646510
 GameObject:
   m_ObjectHideFlags: 0
@@ -9112,6 +10743,7 @@ GameObject:
   - component: {fileID: 1895646513}
   - component: {fileID: 1895646512}
   - component: {fileID: 1895646515}
+  - component: {fileID: 1895646516}
   m_Layer: 5
   m_Name: btn12
   m_TagString: Untagged
@@ -9195,6 +10827,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1895646516}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1895646513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9247,6 +10891,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1895646510}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1895646516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895646510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1895646510}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1901211365
 GameObject:
   m_ObjectHideFlags: 0
@@ -9260,8 +10919,9 @@ GameObject:
   - component: {fileID: 1901211368}
   - component: {fileID: 1901211367}
   - component: {fileID: 1901211370}
+  - component: {fileID: 1901211371}
   m_Layer: 5
-  m_Name: btnD(25-36)R
+  m_Name: btn48D(25-36)R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9343,6 +11003,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1901211371}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1901211368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9395,6 +11067,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1901211365}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1901211371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901211365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1901211365}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &1979645650
 GameObject:
   m_ObjectHideFlags: 0
@@ -9408,8 +11095,9 @@ GameObject:
   - component: {fileID: 1979645653}
   - component: {fileID: 1979645652}
   - component: {fileID: 1979645655}
+  - component: {fileID: 1979645656}
   m_Layer: 5
-  m_Name: btnmitteSpalte
+  m_Name: btn50mitteSpalte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9491,6 +11179,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1979645656}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1979645653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9543,6 +11243,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1979645650}
   Canvas: {fileID: 1448258839}
+--- !u!114 &1979645656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979645650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1979645650}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &2000251520
 GameObject:
   m_ObjectHideFlags: 0
@@ -9556,6 +11271,7 @@ GameObject:
   - component: {fileID: 2000251523}
   - component: {fileID: 2000251522}
   - component: {fileID: 2000251525}
+  - component: {fileID: 2000251526}
   m_Layer: 5
   m_Name: btn33
   m_TagString: Untagged
@@ -9639,6 +11355,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2000251526}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2000251523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9691,6 +11419,197 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 2000251520}
   Canvas: {fileID: 1448258839}
+--- !u!114 &2000251526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000251520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 2000251520}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
+--- !u!1 &2027498444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027498448}
+  - component: {fileID: 2027498447}
+  - component: {fileID: 2027498446}
+  - component: {fileID: 2027498445}
+  m_Layer: 5
+  m_Name: InputField (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2027498445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027498444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2027498446}
+  m_TextViewport: {fileID: 169206862}
+  m_TextComponent: {fileID: 1792481737}
+  m_Placeholder: {fileID: 1712096930}
+  m_VerticalScrollbar: {fileID: 0}
+  m_VerticalScrollbarEventHandler: {fileID: 0}
+  m_LayoutGroup: {fileID: 0}
+  m_ScrollSensitivity: 1
+  m_ContentType: 0
+  m_InputType: 0
+  m_AsteriskChar: 42
+  m_KeyboardType: 0
+  m_LineType: 0
+  m_HideMobileInput: 0
+  m_HideSoftKeyboard: 0
+  m_CharacterValidation: 0
+  m_RegexValue: 
+  m_GlobalPointSize: 14
+  m_CharacterLimit: 0
+  m_OnEndEdit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSubmit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeselect:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTextSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnEndTextSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTouchScreenKeyboardStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_CustomCaretColor: 0
+  m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
+  m_Text: 
+  m_CaretBlinkRate: 0.85
+  m_CaretWidth: 1
+  m_ReadOnly: 0
+  m_RichText: 1
+  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_OnFocusSelectAll: 1
+  m_ResetOnDeActivation: 1
+  m_RestoreOriginalTextOnEscape: 1
+  m_isRichTextEditingAllowed: 0
+  m_LineLimit: 0
+  m_InputValidator: {fileID: 0}
+--- !u!114 &2027498446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027498444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2027498447
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027498444}
+  m_CullTransparentMesh: 1
+--- !u!224 &2027498448
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027498444}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 169206862}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1015.8594, y: 387.7933}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2077777305
 GameObject:
   m_ObjectHideFlags: 0
@@ -9827,8 +11746,9 @@ GameObject:
   - component: {fileID: 2086963665}
   - component: {fileID: 2086963664}
   - component: {fileID: 2086963667}
+  - component: {fileID: 2086963668}
   m_Layer: 5
-  m_Name: btnSchwarz
+  m_Name: btn41Schwarz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9847,7 +11767,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1817343460}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9910,6 +11830,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2086963668}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2086963665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9962,6 +11894,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 2086963662}
   Canvas: {fileID: 1448258839}
+--- !u!114 &2086963668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086963662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 2086963662}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &2102615299
 GameObject:
   m_ObjectHideFlags: 0
@@ -9975,6 +11922,7 @@ GameObject:
   - component: {fileID: 2102615302}
   - component: {fileID: 2102615301}
   - component: {fileID: 2102615304}
+  - component: {fileID: 2102615305}
   m_Layer: 5
   m_Name: btn22
   m_TagString: Untagged
@@ -10058,6 +12006,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2102615305}
+        m_TargetAssemblyTypeName: RouletteGame, Assembly-CSharp
+        m_MethodName: whichField
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2102615302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10110,6 +12070,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 2102615299}
   Canvas: {fileID: 1448258839}
+--- !u!114 &2102615305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102615299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834d5a56a1349ef479dbb14b15cbd189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 2102615299}
+  inputField: {fileID: 1364355364}
+  setText: {fileID: 756752199}
 --- !u!1 &2147235660
 GameObject:
   m_ObjectHideFlags: 0
