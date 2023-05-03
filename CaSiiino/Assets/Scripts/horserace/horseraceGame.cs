@@ -11,6 +11,8 @@ using UnityEngine.UI;
 
 public class horseraceGame : MonoBehaviour
 {
+    [SerializeField] BuoyancyEffector2D effector;
+    [SerializeField] float speed;
     public GameObject horseManager;
     public Canvas canvasStart;
     public TMP_InputField inputField = null;
@@ -86,6 +88,10 @@ public class horseraceGame : MonoBehaviour
             canvasStart.gameObject.SetActive(false);
             horseManager.SetActive(true);
         }
+    }
+    public void play()
+    {
+        effector.flowMagnitude = horseSpeed();
     }
     public float horseSpeed()
     {
