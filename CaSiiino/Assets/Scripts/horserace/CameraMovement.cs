@@ -21,7 +21,7 @@ public class CameraMovement : MonoBehaviour
     {
         if(camera.transform.position.x < 7.45)
         {
-            camera.transform.position += new Vector3(((float)0.2 * Time.deltaTime), 0, 0);
+            camera.transform.position += new Vector3(((float)0.21 * Time.deltaTime), 0, 0);
         }
     }
 }

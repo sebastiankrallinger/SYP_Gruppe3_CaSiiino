@@ -9,6 +9,7 @@ public class horseMovement : MonoBehaviour
 {
     public Transform finishTransform;
     public float speed = 0.0f;
+    public float x = 0.0f;
     public float delta = 0.0f;
 
     private Vector2 horsePosition;
@@ -19,18 +20,18 @@ public class horseMovement : MonoBehaviour
     {
         horsePosition = transform.position;
         finishPosition = finishTransform.position;
+        x = 1.25f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        speed += Time.deltaTime;
+        speed += Time.deltaTime * x;
         //speed += Time.deltaTime;
         //var newPos = Vector2.Lerp(horsePosition, finishPosition, Mathf.SmoothStep(0, 1, speed / horseSpeed()));
         var newPos = Vector2.Lerp(horsePosition, finishPosition, speed / delta);
         transform.position = newPos;
     }
-
     private float horseSpeed(float speed)
     {
         Random r = new Random();
