@@ -27,8 +27,16 @@ public class onFieldClick : MonoBehaviour
     {
         Canvas.SetActive(false);
     }
-    public void getIntoRouletteScene()
+    public void getIntoRouletteTable()
     {
         SceneManager.LoadScene("RouletteTable");
+    }
+    public void getIntoRouletteScene()
+    {
+        SceneManager.LoadScene("RouletteScene");
+    }
+    public void goBacktoMainMenu()
+    {
+        SceneManager.LoadScene("Mainmenu");
     }
 }

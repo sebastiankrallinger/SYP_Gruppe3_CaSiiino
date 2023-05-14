@@ -31,7 +31,7 @@ public class Field : MonoBehaviour
     public int Einsatz
     {
         get { return einsatz; }
-        set { einsatz = value; }
+        set { einsatz += value; }
     }
     public string Bezeichnung
     {

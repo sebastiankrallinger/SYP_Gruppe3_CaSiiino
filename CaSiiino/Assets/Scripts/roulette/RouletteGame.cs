@@ -10,10 +10,11 @@ using Random = System.Random;
 
 public class RouletteGame : MonoBehaviour
 {
-    private int randomfield;
+    private int randomfield=0;
     public GameObject Button;
     public TMP_InputField inputField;
     public TMP_Text setText;
+    public TMP_Text gewinntext;
     List<Field> fieldlist = new List<Field>()
     {
         new Field(0,"green",0),
@@ -57,8 +58,8 @@ public class RouletteGame : MonoBehaviour
         new Field(38,"Manque",0),
         new Field(39,"Pair",0),
         new Field(40,"Inpair",0),
-        new Field(41,"Schwarz",0),
-        new Field(42,"Rot",0),
+        new Field(41,"black",0),
+        new Field(42,"red",0),
         new Field(43,"(1-12)",0),
         new Field(44,"(1-12)",0),
         new Field(45,"(13-24)",0),
@@ -98,6 +99,7 @@ public class RouletteGame : MonoBehaviour
     }
     public void setEinsatz()
     {
+        string thisinfile="";
         int betrag;
         int.TryParse(inputField.text, out betrag); 
         string data=File.ReadAllText("Assets/Scripts/roulette/data.txt");
@@ -108,9 +110,10 @@ public class RouletteGame : MonoBehaviour
             {
                 if (f.Fieldnr == btnnr)
                 {
-                    f.Einsatz += betrag;
+                    f.Einsatz = betrag;
+                    //System.Diagnostics.Debug.WriteLine(f.Fieldnr + "\t" + f.Einsatz);
                     inputField.text = " ";
-                    File.WriteAllText("Assets/Scripts/roulette/data.txt", f.Fieldnr + "\t" + f.Einsatz);
+                    //File.WriteAllText("Assets/Scripts/roulette/data.txt", f.Fieldnr + "\t" + f.Einsatz);
                 }
             }
             if (37 <= f.Fieldnr && f.Fieldnr <= 51)
@@ -119,16 +122,150 @@ public class RouletteGame : MonoBehaviour
                 {
                     f.Einsatz += betrag;
                     inputField.text = " ";
-                    File.WriteAllText("Assets/Scripts/roulette/data.txt", f.Bezeichnung + "\t" + f.Einsatz);
+                    //File.WriteAllText("Assets/Scripts/roulette/data.txt", f.Bezeichnung + "\t" + f.Einsatz);
                 }
             }
         }
+        foreach(Field f in fieldlist)
+        {
+            thisinfile += f.Fieldnr+"\t"+f.Bezeichnung+"\t"+f.Einsatz+"\n";
+        }
+        File.WriteAllText("Assets/Scripts/roulette/dataofallfields.txt", thisinfile);
     }
     public void spinthewheel()
     {
         Random rnd = new Random();
-        randomfield=rnd.Next(0, 36 + 1);
-        File.WriteAllText("Assets/Scripts/roulette/data.txt", Convert.ToString(randomfield));
+        randomfield=rnd.Next(0, 35 + 1);
+        //randomfield = 11;
+    }
+    public int Gewinnermittlung()
+    {
+        int gewinn=0;
+        int i = 0;
+        string color="";
+        string datafromfile = File.ReadAllText("Assets/Scripts/roulette/dataofallfields.txt");
+        string[] subs = datafromfile.Split("\n");
+        foreach (Field f in fieldlist)
+        {
+            string[] subs2=subs[i].Split("\t");
+            f.Fieldnr = Convert.ToInt32(subs2[0]);
+            f.Bezeichnung = subs[1];
+            f.Einsatz= Convert.ToInt32(subs2[2]);
+            i++;
+        }
+        foreach(Field f in fieldlist)
+        {
+            if (f.Fieldnr == randomfield)
+            {
+                color = f.Bezeichnung;
+            }
+        }
+        foreach(Field f in fieldlist)
+        {
+            if (0 < f.Fieldnr && f.Fieldnr <= 36)
+            {
+                if (f.Fieldnr == randomfield)
+                {
+                    gewinn += f.Einsatz * 36;
+                }
+            }
+            if (37 == f.Fieldnr)
+            {
+                if (randomfield>18)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (38 == f.Fieldnr)
+            {
+                if (randomfield<19)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (39 == f.Fieldnr)
+            {
+                if (randomfield%2==0)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (40 == f.Fieldnr)
+            {
+                if (randomfield % 2 == 1)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (41 == f.Fieldnr)
+            {
+                if (f.Bezeichnung == color)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (42 == f.Fieldnr)
+            {
+                if (f.Bezeichnung == color)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (42 == f.Fieldnr)
+            {
+                if (f.Bezeichnung == color)
+                {
+                    gewinn += f.Einsatz * 2;
+                }
+            }
+            if (43 == f.Fieldnr|| 44 == f.Fieldnr)
+            {
+                if (0<randomfield&&randomfield<13)
+                {
+                    gewinn += f.Einsatz * 3;
+                }
+            }
+            if (45 == f.Fieldnr || 46 == f.Fieldnr)
+            {
+                if (12 < randomfield && randomfield < 25)
+                {
+                    gewinn += f.Einsatz * 3;
+                }
+            }
+            if (47 == f.Fieldnr || 48 == f.Fieldnr)
+            {
+                if (24 < randomfield && randomfield < 37)
+                {
+                    gewinn += f.Einsatz * 3;
+                }
+            }
+            if (49 == f.Fieldnr)
+            {
+                if (randomfield%3==1)
+                {
+                    gewinn += f.Einsatz * 3;
+                }
+            }
+            if (50 == f.Fieldnr)
+            {
+                if (randomfield%3==2)
+                {
+                    gewinn += f.Einsatz * 3;
+                }
+            }
+            if (51 == f.Fieldnr)
+            {
+                if (randomfield % 3 == 0)
+                {
+                    gewinn += f.Einsatz * 3;
+                }
+            }
+        }
+        return gewinn;
+    }
+    public void Gewinnanzeige()
+    {
+        gewinntext.text = "Du hast " + Gewinnermittlung() + " Cristalle"+"\n\n"+randomfield;
     }
     
 }
