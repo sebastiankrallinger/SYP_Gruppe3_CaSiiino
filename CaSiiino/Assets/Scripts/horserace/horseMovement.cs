@@ -8,37 +8,47 @@ using Random = System.Random;
 public class horseMovement : MonoBehaviour
 {
     public Transform finishTransform;
-    public float speed = 0.0f;
+    //public float speed = 0.0f;
     public float x = 0.0f;
     public float delta = 0.0f;
 
     private Vector2 horsePosition;
     private Vector2 finishPosition;
 
+    public float minSpeed = 1.0f;
+    public float maxSpeed = 3.0f;
+
+    private float t = 0.0f;
+    private float speed;
+
     // Start is called before the first frame update
     void Start()
     {
-        horsePosition = transform.position;
-        finishPosition = finishTransform.position;
-        x = 1.25f;
+            horsePosition = transform.position;
+            finishPosition = finishTransform.position;
+            x = 1.25f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        speed += Time.deltaTime * x;
-        //speed += Time.deltaTime;
-        //var newPos = Vector2.Lerp(horsePosition, finishPosition, Mathf.SmoothStep(0, 1, speed / horseSpeed()));
+        speed += horseSpeed() * Time.deltaTime;
         var newPos = Vector2.Lerp(horsePosition, finishPosition, speed / delta);
         transform.position = newPos;
     }
-    private float horseSpeed(float speed)
+
+    private float horseSpeed()
     {
         Random r = new Random();
-        float s = 0.0f;
-        do {
-            s = r.Next(20, 100 + 1);
-        } while (speed < speed / s);
-        return s;
+        double min = 0.05;
+        double max = 1.9;
+        double range = max - min;
+        float f = 0.0f;
+
+        double x = r.NextDouble();
+        double s = (x * range) + min;
+        return (float)s;
+
     }
 }
+    
