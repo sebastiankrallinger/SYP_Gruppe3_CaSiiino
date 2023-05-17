@@ -24,11 +24,6 @@ public class MainmenuFunctions : MonoBehaviour
     {
         SceneManager.LoadScene("RouletteScene");
     }
-    //Go to UNO Scene
-    public void goToUnoScene()
-    {
-        SceneManager.LoadScene("UnoScene");
-    }
     //Go to Horserace Scene
     public void goToHorseraceScene()
     {
