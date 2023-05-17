@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class onFieldClick : MonoBehaviour
 {
@@ -26,9 +27,16 @@ public class onFieldClick : MonoBehaviour
     {
         Canvas.SetActive(false);
     }
-    public void goToMain()
+    public void getIntoRouletteTable()
+    {
+        SceneManager.LoadScene("RouletteTable");
+    }
+    public void getIntoRouletteScene()
+    {
+        SceneManager.LoadScene("RouletteScene");
+    }
+    public void goBacktoMainMenu()
     {
         SceneManager.LoadScene("Mainmenu");
     }
-
 }
