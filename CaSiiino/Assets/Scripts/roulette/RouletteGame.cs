@@ -128,7 +128,7 @@ public class RouletteGame : MonoBehaviour
         }
         foreach(Field f in fieldlist)
         {
-            thisinfile += f.Fieldnr+"\t"+f.Bezeichnung+"\t"+f.Einsatz+"\n";
+            thisinfile += f.Fieldnr+","+f.Bezeichnung+","+f.Einsatz+"/";
         }
         File.WriteAllText("Assets/Scripts/roulette/dataofallfields.txt", thisinfile);
     }
@@ -136,7 +136,7 @@ public class RouletteGame : MonoBehaviour
     {
         Random rnd = new Random();
         randomfield=rnd.Next(0, 35 + 1);
-        //randomfield = 11;
+        //randomfield = 15;
     }
     public int Gewinnermittlung()
     {
@@ -144,12 +144,12 @@ public class RouletteGame : MonoBehaviour
         int i = 0;
         string color="";
         string datafromfile = File.ReadAllText("Assets/Scripts/roulette/dataofallfields.txt");
-        string[] subs = datafromfile.Split("\n");
+        string[] subs = datafromfile.Split("/");
         foreach (Field f in fieldlist)
         {
-            string[] subs2=subs[i].Split("\t");
+            string[] subs2=subs[i].Split(",");
             f.Fieldnr = Convert.ToInt32(subs2[0]);
-            f.Bezeichnung = subs[1];
+            f.Bezeichnung = subs2[1];
             f.Einsatz= Convert.ToInt32(subs2[2]);
             i++;
         }
@@ -211,13 +211,6 @@ public class RouletteGame : MonoBehaviour
                     gewinn += f.Einsatz * 2;
                 }
             }
-            if (42 == f.Fieldnr)
-            {
-                if (f.Bezeichnung == color)
-                {
-                    gewinn += f.Einsatz * 2;
-                }
-            }
             if (43 == f.Fieldnr|| 44 == f.Fieldnr)
             {
                 if (0<randomfield&&randomfield<13)
@@ -265,7 +258,6 @@ public class RouletteGame : MonoBehaviour
     }
     public void Gewinnanzeige()
     {
-        gewinntext.text = "Du hast " + Gewinnermittlung() + " Cristalle"+"\n\n"+randomfield;
+        gewinntext.text = "Du hast " + Gewinnermittlung() + " Cristalle gewonnen!"+"\n\n"+randomfield;
     }
-    
 }
