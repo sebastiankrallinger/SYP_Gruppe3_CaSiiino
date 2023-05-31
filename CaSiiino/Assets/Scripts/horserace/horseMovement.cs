@@ -7,10 +7,11 @@ using Random = System.Random;
 
 public class horseMovement : MonoBehaviour
 {
+    horseraceGame horseraceGame;
     public Transform finishTransform;
-    //public float speed = 0.0f;
     public float x = 0.0f;
     public float delta = 0.0f;
+    public int horseId = 0;
 
     private Vector2 horsePosition;
     private Vector2 finishPosition;
@@ -18,23 +19,32 @@ public class horseMovement : MonoBehaviour
     public float minSpeed = 1.0f;
     public float maxSpeed = 3.0f;
 
-    private float t = 0.0f;
     private float speed;
 
     // Start is called before the first frame update
     void Start()
     {
-            horsePosition = transform.position;
-            finishPosition = finishTransform.position;
-            x = 1.25f;
+        horsePosition = transform.position;
+        finishPosition = finishTransform.position;
+        x = 1.25f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        speed += horseSpeed() * Time.deltaTime;
-        var newPos = Vector2.Lerp(horsePosition, finishPosition, speed / delta);
+        speed += horseSpeed();
+        var newPos = Vector2.Lerp(horsePosition, finishPosition, (speed / delta) * Time.deltaTime);
         transform.position = newPos;
+        if(newPos == finishPosition)
+        {
+            if(horseId == horseraceGame.selectedHorseId)
+            {
+                Debug.Log("Du gewinnst!");
+            }else
+            {
+                Debug.Log("Du verlierst!");
+            }
+        }
     }
 
     private float horseSpeed()
@@ -43,7 +53,6 @@ public class horseMovement : MonoBehaviour
         double min = 0.05;
         double max = 1.9;
         double range = max - min;
-        float f = 0.0f;
 
         double x = r.NextDouble();
         double s = (x * range) + min;

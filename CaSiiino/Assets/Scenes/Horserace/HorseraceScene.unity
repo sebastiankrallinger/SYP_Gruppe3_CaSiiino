@@ -282,7 +282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210166086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.606, y: -3.54, z: -10}
+  m_LocalPosition: {x: 7.606, y: -3.551, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1111,7 +1111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979161375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.606, y: -3.63, z: -10}
+  m_LocalPosition: {x: 7.606, y: -3.618, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1922,9 +1922,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishTransform: {fileID: 979161376}
-  speed: 0
   x: 0
   delta: 45
+  horseId: 3
+  minSpeed: 1
+  maxSpeed: 3
 --- !u!61 &1536633846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2050,9 +2052,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishTransform: {fileID: 1766509006}
-  speed: 0
   x: 0
   delta: 45
+  horseId: 1
+  minSpeed: 1
+  maxSpeed: 3
 --- !u!61 &1651858349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2218,7 +2222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effector: {fileID: 0}
   speed: 20
-  horseManager: {fileID: 0}
   canvasStart: {fileID: 1873941670}
   inputField: {fileID: 1397523524}
   selectedImg1: {fileID: 21300000, guid: ed50d1145af67eb45a9430fceffce3e2, type: 3}
@@ -2233,6 +2236,7 @@ MonoBehaviour:
   btn2: {fileID: 914195373}
   btn3: {fileID: 1302632193}
   btn4: {fileID: 1392204158}
+  selectedHorseId: 0
 --- !u!1 &1766509005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,9 +2315,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishTransform: {fileID: 210166087}
-  speed: 0
   x: 0
   delta: 45
+  horseId: 2
+  minSpeed: 1
+  maxSpeed: 3
 --- !u!61 &1863486383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2642,9 +2648,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishTransform: {fileID: 1923892116}
-  speed: 0
   x: 0
   delta: 45
+  horseId: 4
+  minSpeed: 1
+  maxSpeed: 3
 --- !u!61 &1892372510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2747,7 +2755,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923892115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.606, y: -3.7, z: -10}
+  m_LocalPosition: {x: 7.606, y: -3.712, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

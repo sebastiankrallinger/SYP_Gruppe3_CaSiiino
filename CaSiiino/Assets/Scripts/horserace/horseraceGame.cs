@@ -30,7 +30,7 @@ public class horseraceGame : MonoBehaviour
     public Button btn4;
     private int input;
     private int testInput = 0;
-    private int selectedHorseId;
+    public int selectedHorseId = 0;
     private bool testSelectedHorse = false;
     // Start is called before the first frame update
     void Start()
