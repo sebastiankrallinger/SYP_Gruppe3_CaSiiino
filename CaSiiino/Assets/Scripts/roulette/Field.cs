@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Field : MonoBehaviour
 {
+    //Feld Klasse mit 3 Eigenschaften
     void Start()
     {
         
