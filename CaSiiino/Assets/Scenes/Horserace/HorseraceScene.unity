@@ -1858,7 +1858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1449649998
 Transform:
   m_ObjectHideFlags: 0
@@ -1924,7 +1924,7 @@ MonoBehaviour:
   finishTransform: {fileID: 979161376}
   x: 0
   delta: 45
-  horseId: 3
+  win: 0
   minSpeed: 1
   maxSpeed: 3
 --- !u!61 &1536633846
@@ -2054,7 +2054,7 @@ MonoBehaviour:
   finishTransform: {fileID: 1766509006}
   x: 0
   delta: 45
-  horseId: 1
+  win: 0
   minSpeed: 1
   maxSpeed: 3
 --- !u!61 &1651858349
@@ -2145,8 +2145,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1705812407}
   - component: {fileID: 1705812408}
-  - component: {fileID: 1705812409}
   - component: {fileID: 1705812410}
+  - component: {fileID: 1705812411}
+  - component: {fileID: 1705812412}
+  - component: {fileID: 1705812413}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2193,21 +2195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1884680812}
---- !u!114 &1705812409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705812405}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342f11fbd78366e4a9a4700daf47ef6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundSpeed: 0.3
-  backgroundRenderer: {fileID: 0}
-  scriptName: 
+  finish: 0
 --- !u!114 &1705812410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2237,6 +2225,46 @@ MonoBehaviour:
   btn3: {fileID: 1302632193}
   btn4: {fileID: 1392204158}
   selectedHorseId: 0
+  start: 0
+--- !u!114 &1705812411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705812405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498421ffda54de544a1ccde21a3f05a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectID: 0
+--- !u!114 &1705812412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705812405}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b8c0f5312f67b4ea04bd3f7cf7cc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1705812413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705812405}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a12d01d8accbe85439117f02adb080f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 8293314068589248006, guid: e74ccf5a8fb651e4a9eac3f30895c208, type: 3}
+  winAmount: {fileID: 0}
 --- !u!1 &1766509005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,7 +2345,7 @@ MonoBehaviour:
   finishTransform: {fileID: 210166087}
   x: 0
   delta: 45
-  horseId: 2
+  win: 0
   minSpeed: 1
   maxSpeed: 3
 --- !u!61 &1863486383
@@ -2601,6 +2629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1884680812}
+  finish: 0
 --- !u!1 &1892372507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,7 +2679,7 @@ MonoBehaviour:
   finishTransform: {fileID: 1923892116}
   x: 0
   delta: 45
-  horseId: 4
+  win: 0
   minSpeed: 1
   maxSpeed: 3
 --- !u!61 &1892372510
