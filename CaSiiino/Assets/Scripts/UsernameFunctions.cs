@@ -6,10 +6,17 @@ using TMPro;
 
 public class UsernameFunctions : MonoBehaviour
 {
-    public TextMeshProUGUI username;
+    Filehandling file;
+    public TextMeshProUGUI username = null;
+    public TextMeshProUGUI coinsField = null;
+    public int coins = 0;
     public TMP_InputField input = null;
     public GameObject user;
 
+    private void Start()
+    {
+        file = FindAnyObjectByType<Filehandling>();
+    }
     //Set Username
     public void setUsername()
     {
@@ -17,7 +24,9 @@ public class UsernameFunctions : MonoBehaviour
         if (input.text != "") 
         {
             username.text = input.text;
+            coinsField.text = coins.ToString();
             user.SetActive(false);
+            file.write();
         }
     }
 }

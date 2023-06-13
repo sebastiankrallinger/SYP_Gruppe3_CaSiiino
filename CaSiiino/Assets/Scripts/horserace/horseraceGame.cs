@@ -13,7 +13,7 @@ public class horseraceGame : MonoBehaviour
 {
     [SerializeField] BuoyancyEffector2D effector;
     [SerializeField] float speed;
-    public GameObject horseManager;
+    Filehandling file;
     public Canvas canvasStart;
     public TMP_InputField inputField = null;
     public Sprite selectedImg1;
@@ -28,25 +28,20 @@ public class horseraceGame : MonoBehaviour
     public Button btn2;
     public Button btn3;
     public Button btn4;
-    private int input;
-    private int testInput = 0;
-    private int selectedHorseId;
+    public static int testInput;
+    public int selectedHorseId;
     private bool testSelectedHorse = false;
-    // Start is called before the first frame update
-    void Start()
+    public bool start = false;
+
+    private void Start()
     {
-        
+        file = FindAnyObjectByType<Filehandling>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void onHorse1Click() 
     { 
         testSelectedHorse = true;
-        selectedHorseId = 1;
+        selectedHorseId = 2;
         btn1.image.sprite = selectedImg1;
         btn2.image.sprite = Img2;
         btn3.image.sprite = Img3;
@@ -55,7 +50,7 @@ public class horseraceGame : MonoBehaviour
     public void onHorse2Click()
     {
         testSelectedHorse = true;
-        selectedHorseId = 2;
+        selectedHorseId = 3;
         btn2.image.sprite = selectedImg2;
         btn1.image.sprite = Img1;
         btn3.image.sprite = Img3;
@@ -64,7 +59,7 @@ public class horseraceGame : MonoBehaviour
     public void onHorse3Click()
     {
         testSelectedHorse = true;
-        selectedHorseId = 3;
+        selectedHorseId = 1;
         btn3.image.sprite = selectedImg3;
         btn2.image.sprite = Img2;
         btn1.image.sprite = Img1;
@@ -81,13 +76,17 @@ public class horseraceGame : MonoBehaviour
     }
     public void startPanelOff()
     {
-        int.TryParse(inputField.text, out testInput);
+        testInput = int.Parse(inputField.text);
         if (inputField != null && testInput > 0 && testSelectedHorse != false)
         {
-            input = testInput;
-            canvasStart.gameObject.SetActive(false);
-            horseManager.SetActive(true);
-        }
+            if (Convert.ToInt32(testInput) <= file.coins())
+            {
+                canvasStart.gameObject.SetActive(false);
+                start = true;
+            }
+            
+            
+        } 
     }
     public void play()
     {

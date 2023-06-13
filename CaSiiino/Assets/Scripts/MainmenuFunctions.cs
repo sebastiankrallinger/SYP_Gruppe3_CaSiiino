@@ -6,19 +6,29 @@ using UnityEngine.UI;
 
 public class MainmenuFunctions : MonoBehaviour
 {
+    UsernameFunctions functions;
+    Filehandling file;
     public GameObject Username;
+    private static int zugriffe = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-       Username.SetActive(true);
+       functions = FindAnyObjectByType<UsernameFunctions>();
+       file = FindAnyObjectByType<Filehandling>();
+       if(zugriffe == 0)
+       {
+            Username.SetActive(true);
+            zugriffe++;
+       }
+       else
+       {
+            Username.SetActive(false);
+            functions.username.text = file.getUser();
+            functions.coinsField.text = file.getCoins();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     //Go to Roulette Scene
     public void goToRouletteScene()
     {
