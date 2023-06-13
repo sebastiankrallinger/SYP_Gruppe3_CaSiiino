@@ -20,16 +20,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/11m/11mScene.unity
     guid: 759fb2a222cd54149b1593f6f8de6c11
-  - enabled: 1
-    path: Assets/Scenes/Uno/UnoScene.unity
-    guid: c2b7346e76489484490de730f1713b76
   - enabled: 0
-    path: Assets/Scenes/Mainmenu/SettingsScene.unity
-    guid: e7b25cf05d382b147b00faae27537ae9
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Horserace/HorseWin.unity
     guid: 52a87676c7ea8f14a829a7e5ee8515d8
   - enabled: 1
     path: Assets/Scenes/Horserace/HorseLose.unity
     guid: 31ee2526cf6f96e47b17808ed82648cc
+  - enabled: 1
+    path: Assets/Scenes/Roulette/RouletteTable.unity
+    guid: da512ee55b9ca63428dce738d06e5107
   m_configObjects: {}
