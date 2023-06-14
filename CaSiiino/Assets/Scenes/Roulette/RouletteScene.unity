@@ -9404,6 +9404,7 @@ GameObject:
   - component: {fileID: 1448258842}
   - component: {fileID: 1448258841}
   - component: {fileID: 1448258844}
+  - component: {fileID: 1448258845}
   m_Layer: 5
   m_Name: MoneySetCanvas
   m_TagString: Untagged
@@ -9508,6 +9509,18 @@ MonoBehaviour:
   Button: {fileID: 1068580122}
   Canvas: {fileID: 1448258839}
   Canvas1: {fileID: 1014695896}
+--- !u!114 &1448258845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448258839}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b8c0f5312f67b4ea04bd3f7cf7cc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459712974
 GameObject:
   m_ObjectHideFlags: 0
@@ -12191,6 +12204,7 @@ GameObject:
   - component: {fileID: 2077777308}
   - component: {fileID: 2077777307}
   - component: {fileID: 2077777306}
+  - component: {fileID: 2077777310}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -12284,6 +12298,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2077777310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077777305}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b8c0f5312f67b4ea04bd3f7cf7cc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2081877705
 GameObject:
   m_ObjectHideFlags: 0

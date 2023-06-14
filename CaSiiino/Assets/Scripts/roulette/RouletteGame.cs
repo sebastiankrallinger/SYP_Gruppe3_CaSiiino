@@ -11,7 +11,9 @@ using Random = System.Random;
 public class RouletteGame : MonoBehaviour
 {
     onFieldClick click;
+    Filehandling file;
     private int randomfield=0;
+    private static int gesamtEinsatz = 0;
     public GameObject Button;
     public TMP_InputField inputField;
     public TMP_Text setText;
@@ -21,6 +23,7 @@ public class RouletteGame : MonoBehaviour
 
     private void Start()
     {
+        file = FindAnyObjectByType<Filehandling>();
         click = FindAnyObjectByType<onFieldClick>();
     }
 
@@ -116,15 +119,17 @@ public class RouletteGame : MonoBehaviour
     {
         string thisinfile="";
         int betrag;
-        int geldbetrag = Convert.ToInt32(File.ReadAllText("Assets/Scripts/roulette/geld.txt"));
-
+        int geldbetrag = Convert.ToInt32(file.getCoins());
+        
         //der gesetzte betrag wird in betrag gespeichert
-        int.TryParse(inputField.text, out betrag); 
+        int.TryParse(inputField.text, out betrag);
+        gesamtEinsatz += betrag;
 
         // wenn der gesetzte betrag größer als der betrag ist den man besitzt kann man nicht so viel setzen
-        if(betrag>geldbetrag)
+        if (betrag>geldbetrag)
         {
             betrag = 0;
+            gesamtEinsatz = 0;
             click.setWarnPanelVisible();
             Canvas.SetActive(false);
 
@@ -141,7 +146,6 @@ public class RouletteGame : MonoBehaviour
             {
                 if (f.Fieldnr == btnnr)
                 {
-                    geldbetrag = geldbetrag - betrag;
                     f.Einsatz = betrag;
                     inputField.text = " ";
                 }
@@ -150,14 +154,10 @@ public class RouletteGame : MonoBehaviour
             {
                 if (f.Fieldnr == btnnr)
                 {
-                    geldbetrag = geldbetrag-betrag;
                     f.Einsatz += betrag;
                     inputField.text = " ";
                 }
             }
-
-            //betrag den man hat wird in geld.txt gespeichert
-            File.WriteAllText("Assets/Scripts/roulette/geld.txt", Convert.ToString(geldbetrag));
         }
 
         foreach(Field f in fieldlist)
@@ -307,10 +307,19 @@ public class RouletteGame : MonoBehaviour
         gewinntext.text = "Du hast " + newAmount + " Cristalle gewonnen!"+"\n\n"+"Es war Feld: "+randomfield;
 
         //gewinn wird gutgeschrieben
-        int geldbetrag=Convert.ToInt32(File.ReadAllText("Assets/Scripts/roulette/geld.txt"));
-        geldbetrag += newAmount;
+        //int geldbetrag = Convert.ToInt32(file.getCoins());
+        //geldbetrag += newAmount;
 
         //gesamter geldbetrag wird gespeichtert
-        File.WriteAllText("Assets/Scripts/roulette/geld.txt", Convert.ToString(geldbetrag));
+        if(newAmount != 0)
+        {
+            file.updateCoins(Convert.ToString(newAmount), true);
+            gesamtEinsatz = 0;
+        }
+        else
+        {
+            file.updateCoins(Convert.ToString(gesamtEinsatz), false);
+            gesamtEinsatz = 0;
+        }
     }
 }
