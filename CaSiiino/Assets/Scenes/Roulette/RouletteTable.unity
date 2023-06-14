@@ -232,7 +232,6 @@ MonoBehaviour:
   Button: {fileID: 598782059}
   Image: {fileID: 10603701}
   Canvas: {fileID: 1562389826}
-  i: 0
 --- !u!1 &14144628
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,10 +397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3191b2045adee458c5e3f3ccff2f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
+  Button: {fileID: 598782059}
   Image: {fileID: 10603701}
-  Canvas: {fileID: 0}
-  i: 0
+  Canvas: {fileID: 1562389826}
 --- !u!1 &598782059
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +457,6 @@ MonoBehaviour:
   Button: {fileID: 598782059}
   Image: {fileID: 10603701}
   Canvas: {fileID: 1562389826}
-  i: 0
 --- !u!114 &598782062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1018,6 +1015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1052975854}
   Canvas: {fileID: 0}
+  Canvas1: {fileID: 0}
 --- !u!1 &1100765590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +1139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1214417806}
   Canvas: {fileID: 0}
+  Canvas1: {fileID: 0}
 --- !u!114 &1214417809
 MonoBehaviour:
   m_ObjectHideFlags: 0

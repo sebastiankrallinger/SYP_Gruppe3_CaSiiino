@@ -284,6 +284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 5917049}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &5917055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,6 +733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 51488089}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &51488095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,6 +912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 80193327}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &80193333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1088,6 +1091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 91812256}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &91812262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1266,6 +1270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 94163301}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &94163307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,6 +1449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 103882239}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &103882245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1622,6 +1628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 109544649}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &109544655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1800,6 +1807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 177956608}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &177956614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1978,6 +1986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 182271255}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &182271261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2156,6 +2165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 219192371}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &219192377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2625,6 +2635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 379722653}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &379722659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2803,6 +2814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 384112310}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &384112316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,6 +2993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 388442850}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &388442856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3212,6 +3225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 460089331}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &460089337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3390,6 +3404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 487544699}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &487544705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3568,6 +3583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 528925616}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &528925622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3822,6 +3838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 553656104}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &553656110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3934,6 +3951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1068580122}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!1 &569837979
 GameObject:
   m_ObjectHideFlags: 0
@@ -4207,6 +4225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 572372439}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &572372445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4385,6 +4404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 582195028}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &582195034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4563,6 +4583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 590919014}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &590919020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4741,6 +4762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 614486851}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &614486857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4919,6 +4941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 714555312}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &714555318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5084,7 +5107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 724014283}
-  Canvas: {fileID: 1014695896}
+  Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!1 &745514892
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,6 +5270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 745514892}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &745514898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5559,6 +5584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 770388899}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &770388905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5737,6 +5763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 800414954}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &800414960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5915,6 +5942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 819583152}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &819583158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6241,6 +6269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 901415737}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &901415743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6495,6 +6524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 947482262}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &947482268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6673,6 +6703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 954202921}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &954202927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6851,6 +6882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 961887666}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &961887672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7171,7 +7203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1014695897
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7179,20 +7211,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014695896}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2081877706}
-  m_Father: {fileID: 2077777309}
-  m_RootOrder: 6
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 959.9999, y: 540}
-  m_SizeDelta: {x: 1920, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1014695898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7267,7 +7299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 724014283}
-  Canvas: {fileID: 1014695896}
+  Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!1 &1061200593
 GameObject:
   m_ObjectHideFlags: 0
@@ -7429,6 +7462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1061200593}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1061200599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7608,6 +7642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1068580122}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1068580128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7786,6 +7821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1092657550}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1092657556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7964,6 +8000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1095434502}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1095434508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8142,6 +8179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1102632582}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1102632588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8320,6 +8358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1114461541}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1114461547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8486,6 +8525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1240110490}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!1 &1264294817
 GameObject:
   m_ObjectHideFlags: 0
@@ -8723,6 +8763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1294862821}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1294862827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9153,6 +9194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1382661754}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1382661760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9331,6 +9373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1419662749}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1419662755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9367,7 +9410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1448258840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9381,8 +9424,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 569285781}
-  m_Father: {fileID: 2077777309}
-  m_RootOrder: 5
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9464,6 +9507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1068580122}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!1 &1459712974
 GameObject:
   m_ObjectHideFlags: 0
@@ -9822,6 +9866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1580746343}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1580746349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10000,6 +10045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1617917625}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1617917631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10178,6 +10224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1635399120}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1635399126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10356,6 +10403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1676693315}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1676693321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10534,6 +10582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1685141731}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1685141737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10712,6 +10761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1728493364}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1728493370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10890,6 +10940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1745313630}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1745313636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11318,6 +11369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1886389242}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1886389248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11496,6 +11548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1895646510}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1895646516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11674,6 +11727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1901211365}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1901211371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11852,6 +11906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 1979645650}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &1979645656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12030,6 +12085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 2000251520}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &2000251526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12220,8 +12276,6 @@ RectTransform:
   - {fileID: 941132862}
   - {fileID: 1240110491}
   - {fileID: 822796859}
-  - {fileID: 1448258840}
-  - {fileID: 1014695897}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12324,7 +12378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 724014283}
-  Canvas: {fileID: 0}
+  Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!1 &2086963662
 GameObject:
   m_ObjectHideFlags: 0
@@ -12486,6 +12541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 2086963662}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &2086963668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12664,6 +12720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 2102615299}
   Canvas: {fileID: 1448258839}
+  Canvas1: {fileID: 1014695896}
 --- !u!114 &2102615305
 MonoBehaviour:
   m_ObjectHideFlags: 0

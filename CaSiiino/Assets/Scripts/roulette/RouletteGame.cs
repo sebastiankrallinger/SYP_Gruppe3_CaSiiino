@@ -10,6 +10,7 @@ using Random = System.Random;
 
 public class RouletteGame : MonoBehaviour
 {
+    onFieldClick click;
     private int randomfield=0;
     public GameObject Button;
     public TMP_InputField inputField;
@@ -17,6 +18,11 @@ public class RouletteGame : MonoBehaviour
     public TMP_Text gewinntext;
     //public GameObject WarnCanvas;
     public GameObject Canvas;
+
+    private void Start()
+    {
+        click = FindAnyObjectByType<onFieldClick>();
+    }
 
     //jedes setzbare Feld erstellen
     List<Field> fieldlist = new List<Field>()
@@ -119,8 +125,9 @@ public class RouletteGame : MonoBehaviour
         if(betrag>geldbetrag)
         {
             betrag = 0;
-            //WarnCanvas.SetActive(true);
-            Canvas.SetActive(true);
+            click.setWarnPanelVisible();
+            Canvas.SetActive(false);
+
         }
         
         //data liest aus welches feld gesetzt wird und wird dann zu int wert
@@ -295,12 +302,13 @@ public class RouletteGame : MonoBehaviour
     }
     public void Gewinnanzeige()
     {
+        int newAmount = Gewinnermittlung();
         //ausgabe mit dem gewonnenen betrag
-        gewinntext.text = "Du hast " + Gewinnermittlung() + " Cristalle gewonnen!"+"\n\n"+"Es war Feld: "+randomfield;
+        gewinntext.text = "Du hast " + newAmount + " Cristalle gewonnen!"+"\n\n"+"Es war Feld: "+randomfield;
 
         //gewinn wird gutgeschrieben
         int geldbetrag=Convert.ToInt32(File.ReadAllText("Assets/Scripts/roulette/geld.txt"));
-        geldbetrag += Gewinnermittlung();
+        geldbetrag += newAmount;
 
         //gesamter geldbetrag wird gespeichtert
         File.WriteAllText("Assets/Scripts/roulette/geld.txt", Convert.ToString(geldbetrag));

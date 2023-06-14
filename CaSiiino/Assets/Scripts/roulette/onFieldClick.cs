@@ -9,16 +9,12 @@ public class onFieldClick : MonoBehaviour
 {
     public GameObject Button;
     public GameObject Canvas;
+    public GameObject Canvas1;
     // Start is called before the first frame update
     void Start()
     {
         //am anfang den canvas immer unsichtbar machen
-        Canvas.SetActive(false);
-    }
-    // Update is called once per frame
-    void Update()
-    {
-
+        //Canvas.SetActive(false);
     }
 
     public void setMoneysetVisible()
@@ -35,12 +31,12 @@ public class onFieldClick : MonoBehaviour
     public void setWarnPanelVisible()
     {
         //geldwarnung sichbar machen
-        Canvas.SetActive(true);
+        Canvas1.SetActive(true);
     }
     public void setWarnPanelInvisible()
     {
         //geldwarnung unsichbar machen
-        Canvas.SetActive(false);
+        Canvas1.SetActive(false);
     }
 
     public void getIntoRouletteTable()
